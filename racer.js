@@ -7,8 +7,7 @@ export class Racer{
 }
 
 get Template(){
-    return
-    `<div class="col-12 bg-warning mt-4">
+    return `<div class="col-12 bg-warning mt-4">
     <span class="marker${this.distance}" id="${this.number}">${this.picture}</span>
 </div>`
 }
